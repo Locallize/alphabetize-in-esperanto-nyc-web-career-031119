@@ -6,11 +6,9 @@ def alphabetize(arr)
   
 counter = 0  
 
-  arr.sort_by do |words| 
-    
-    each_letter
-  # if each_letter.index(words[0]) > each_letter.index(words[counter+1])
-     
-  #   end
+  arr.sort_by do |string| 
+    string.split("").collection do |word|
+      alphabet.index(word)
+      end
     end
 end
