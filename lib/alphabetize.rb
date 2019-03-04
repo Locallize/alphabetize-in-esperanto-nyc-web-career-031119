@@ -7,8 +7,8 @@ def alphabetize(arr)
 counter = 0  
 
   arr.sort_by do |string| 
-    string.split("").collection do |word|
-      alphabet.index(word)
+    string.split("").collection do |letter|
+      alphabet.index(letter)
       end
     end
 end
